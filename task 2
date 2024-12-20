@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body>
+    <h2 style="text-align: center;">User Registration</h2>
+    <p style="text-align: center;">Fill out the form below to create an account.</p>
+    <form style="width: 400px; margin: auto;">
+        <!-- Personal Information Section -->
+        <fieldset style="margin-bottom: 20px; padding: 10px;">
+            <h3>Personal Information</h3>
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your name" required style="width: 100%; margin-bottom: 10px;"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required style="width: 100%; margin-bottom: 10px;"><br>
+        </fieldset>
+
+        <!-- Account Details Section -->
+        <fieldset style="margin-bottom: 20px; padding: 10px;">
+            <h3>Account Details</h3>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Choose a username" required style="width: 100%; margin-bottom: 10px;"><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required style="width: 100%; margin-bottom: 10px;"><br>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required style="width: 100%; margin-bottom: 10px;"><br>
+        </fieldset>
+
+        <!-- Submit Button -->
+        <button type="submit" style="width: 100%; padding: 10px;">Register</button>
+    </form>
+</body>
+</html>
+
