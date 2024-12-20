@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simple HTML Example</title>
+    </head>
+    <body>
+        <h1>Welcome to Programming</h1>
+        <h2>Languages to Explore</h2>
+        <p>Click below to visit Google:</p>
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+        <ol>
+            <li>HTML basics </li> 
+            <li>C++ basics</li> 
+            <li>Javascript</li> 
+        </ol>
+        <h2>topics to be discussed</h2> 
+        <ul>
+            <li>Introduction</li>
+            <li>Tags</li>
+            <li>Attributes</li>
+        </ul>
+    </body>
+</html>
